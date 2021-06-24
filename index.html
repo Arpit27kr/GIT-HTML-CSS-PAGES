@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<title>Arpit Kumar</title>
+
+<style>
+body{
+  width:fit-content;
+  background-color:grey;
+  
+}
+div 
+{
+  width: fit-content;
+  height: 120px;
+  background:grey;
+
+
+}
+
+
+.dropbtn {
+  background-color: #3498DB;
+  color: black;
+  padding: 16px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:#3498D8;
+}
+
+.dropdown {
+  position: absolute;
+  left: 1100px;
+  top: 1px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00CED1;
+  min-width: 300px;
+  overflow: auto;
+  box-shadow: 0px 8px 2px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 16px;
+  text-decoration: all;
+  display: block;
+}
+
+.dropdown a:hover {background-color:#00CED1}
+
+.show {display: block;}
+
+.dropbtn1 {
+  background-color: #3498DB;
+  color: black;
+  padding: 16px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+  background-color:#3498D8;
+}
+
+.dropdown1{
+  position: absolute;
+  left: 797px;
+  top: 1px;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #00CED1;/* You can change the blue color frm here*/
+  min-width: 300px;
+  min-height: 150px;
+  overflow: auto;
+  box-shadow: 0px 8px 2px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 15px 16px;
+  text-decoration: all;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color:#00CED1}/* You can change the blue color frm here*/
+.show1 {display: block;}
+
+
+a{
+  color:balck;
+  font-size: 28x;
+  font-family:verdana;/* You can change the font  frm here*/
+  
+
+  
+
+}
+
+
+h1{color:black;
+  font-size: 43px;
+  height: 500px;
+
+   
+   }
+.tab {
+ margin-left: 12.5em;
+
+}
+
+
+.ontainer{
+  width: 1500px;
+  height: 145%;
+  background:grey;/* You can change the blue color frm here*/
+}
+.ontainer2{
+  width: 1500px;
+  height: 165%;
+  background:grey;/* You can change the blue color frm here*/
+}
+
+
+.container{
+  width: 100%;
+  height: 550%;
+  background-color:#00CED1;/* You can change the blue color frm here*/
+}
+
+
+  
+</style>
+
+
+</head>
+<body >
+<div >
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">PROFILE</a>
+    <a href="#contact">HOBBIES</a>
+  </div>
+ </div>
+ <div>     
+  <div class="dropdown1">
+  <button onclick="myFunction1()" class="dropbtn1">INFORMATION</button>
+  <div id="myDropdown1" class="dropdown-content1">
+    <a href="#home">ACHIVEMENTS</a>
+    <a href="#about">PROJECTS</a>
+    <a href="#contact">SKILLS</a>
+</div>
+
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+    var dropdowns1 = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns1.length; i++) {
+      var openDropdown1 = dropdowns1[i];
+      if (openDropdown1.classList.contains('show1')) {
+        openDropdown1.classList.remove('show1');
+      }
+    }
+  }
+}
+</script>
+
+<div>
+  <div class ="ontainer">
+
+
+
+  <div class="tab">
+  <br>
+  <br>
+  <h1><i><b>
+  ARPIT KUMAR
+  <article>PORTFOLIO</article>
+
+  </h1>
+  
+  </div>
+    
+  
+</div>
+
+
+
+<div class="container">
+  <a>
+    <header>&nbsp;&nbsp;</header>
+    <header>&nbsp;&nbsp;</header>
+    <article style="margin-left:12.5em"><b><i>This is a portfolio representing work ,achivement,projects done by me (ARPIT KUMAR).I am a student<br> of BTECH Computer Science at UNIVERSITY OF PETROLIUM AND ENERGY STUDIES (UPES).<br>Currently I am in Second Year.
+    </article>
+    <header>&nbsp;&nbsp;</header>
+    <header>&nbsp;&nbsp;</header>
+    <h2 style="margin-left:30.5em"><b><i>ABOUT ME</h2>
+    <img src="a.png" width="250",height="100" style="margin-left:12.5em"><!-- change ur photo in this file and save with a.png -->
+    <p style="padding-right:9em; float:right"><br><br>My name is Arpit Kumar. I create codes try to solve problems.<br>I live in Delhi & I did my schooling both 10th and 12th from <br>DARBARI LAL D.A.V MODEL SCHOOL  and now a student of computer science<br> engineering at UPES ( UNIVERSITY OF TECHNOLOGY AND ENERGY STUDIES )Dehradun . </p><!-- You can change the content  frm here*/-->
+
+    
+    
+  </a>
+
+</div>
+
+<div class="ontainer2">
+
+  <article style="margin-left:12.5em"><b><i>  
+    <br>
+    CONTACT:
+    <ul>
+      <li>PHONE NUMBER :- 8860681189 </li><!--/* You can change email address frm here*/-->
+      <li>EMAIL:- adityakr365@gmail.com</li></ul><!--/* You can change email address frm here*/-->
+      
+      ADRESS :- <UL><LI> E1/11/48 SEC-15 <br>ROHINI DELHI</LI>&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/aditya-kumar-220053208/" target="_blank"><img src="linkdin.png"width="30",hight="30"style="margin-left:60.5em"></a><a href="https://github.com/Arpit27kr"target="_blank" ><img src="git.png"width="30",hight="30"style="margin-left:46.5.5em"></a><a href="https://www.hackerrank.com/AdityaKumar365"target="_blank"><img src="hacker.png"width="30",hight="30"style="margin-left:48.5.5em"></a><a href="https://www.hackerearth.com/@adityakr365"target="_blank"><img src="HACKEREARTH.png"width="30",hight="30"style="margin-left:50.5.5em"></a><!--/* You can change links just add ur profile link in <a href="ur profile links "frm here*/--> 
+      
+    </ul>
+  </article>  
+</div>
+
+</body>
+</html>
